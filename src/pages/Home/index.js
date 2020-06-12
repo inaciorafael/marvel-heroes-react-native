@@ -86,9 +86,6 @@ const Home = () => {
   useEffect(() => {
     StatusBar.setBarStyle('dark-content')
   },[])
-
-
-  StatusBar.setBarStyle('dark-content')
   if (fontLoading) {
     return <AppLoading />;
   } else {

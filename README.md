@@ -1,4 +1,7 @@
-<h1>Marvel Heroes</h1>
+<div style={flex-direction: row}>
+<img alt="marvel-heroes" title="marvel-heroes" src="/img/marvel.svg" width="200px" />
+    <h1>Heroes</h1>
+</div>
 <div style={flex-direction: row}>
 <img alt="marvel-heroes" title="marvel-heroes" src="/img/screen1.jpeg" width="200px" />
 <img alt="marvel-heroes" title="marvel-heroes" src="/img/screen2.jpeg" width="200px" />

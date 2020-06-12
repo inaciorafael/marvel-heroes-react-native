@@ -1,8 +1,8 @@
-![](img/screen1.jpeg){:height="20%" width="20%"}
+<img alt="marvel-heroes" title="marvel-heroes" src=".img/screen1" width="50px" />
 
 ![GIF demo](img/gif.gif)
 
-Designed for macOS Sierra and High Sierra. *Not yet tested on macOS Mojave, but I'm working on updating it!*
+Aplicativo que mostra 
 
 **Usage**
 ---

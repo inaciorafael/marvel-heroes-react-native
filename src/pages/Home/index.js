@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { ScrollView, ActivityIndicator } from "react-native";
+import { ScrollView, StatusBar } from "react-native";
 import * as Font from "expo-font";
 import { AppLoading } from 'expo';
 
@@ -83,6 +83,12 @@ const Home = () => {
 
   }, []);
 
+  useEffect(() => {
+    StatusBar.setBarStyle('dark-content')
+  },[])
+
+
+  StatusBar.setBarStyle('dark-content')
   if (fontLoading) {
     return <AppLoading />;
   } else {
